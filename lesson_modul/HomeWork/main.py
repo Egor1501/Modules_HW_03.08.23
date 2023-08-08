@@ -21,7 +21,7 @@ if __name__ == '__main__':
     dish4 = Dish('cheesecake4', 'description 4', 103)
 
 
-    cat1 = Category('category1')
+    cat1 = Category('category1') 
     cat2 = Category('category2')
 
     cat1.add_dish(dish1)
