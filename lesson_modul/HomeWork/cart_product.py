@@ -40,18 +40,5 @@ class Cart:
         return res
 
 
-if __name__ == '__main__':
-    pr1 = Product('apple', 30)
-    pr2 = Product('apple lux', 60)
-    pr3 = Product('banana', 50)
-    pr4 = Product('orange', 40)
-
-    cart = Cart()
-    cart.add_product(pr1, 4)
-    cart.add_product(pr4, 2)
-    cart.add_product(pr3, 3)
-    cart.add_product(pr2, 5)
-
-    print(cart)
 
 
